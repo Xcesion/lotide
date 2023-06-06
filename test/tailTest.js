@@ -16,7 +16,7 @@ const tail = require("../tail");
 
 
 describe("#tail", ()=>{
-  it("return 3 for ['Yo Yo', 'Lighthouse', 'Labs']", () => {
+  it("Return ['Lighthouse', 'Labs'] for ['Yo Yo', 'Lighthouse', 'Labs']", () => {
     assert.deepEqual(tail(['Hello', 'Lighthouse', 'Labs']), ['Lighthouse', 'Labs'])
   })
 });
